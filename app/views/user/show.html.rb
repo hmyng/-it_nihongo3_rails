@@ -1,4 +1,5 @@
 <h1>プロフィール</h1>
+<%= image_tag(current_user.avatar_thumbnail) %>
 <h3>メールアドレス</h3>
 
 <p><%= current_user.email %></p>
